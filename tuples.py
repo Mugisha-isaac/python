@@ -31,9 +31,13 @@ print("y is = ",y)
 # username dshould be mugishaisaac
 # domain should be gmail.com
 
-email = 'mugishaisaac@gmail.com'
-username = email[0:12]
-domain = email[13:]
-print("username is: ",username)
-print("domain is: ",domain)
+# email = 'mugishaisaac@gmail.com'
+# username = email[0:12]
+# domain = email[13:]
+# print("username is: ",username)
+# print("domain is: ",domain)
 
+email = "mugishaisaac@gmail.com"
+username,domain = email.split('@')
+print('username: ', username)
+print('domain: ', domain)
